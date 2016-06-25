@@ -29,7 +29,7 @@ public void beforeTest(){
 @Test
 public void test(){
 	searchBox.sendKeys("Moto g");
-	
+	searchBox.sendKeys("");
 }
 
 }

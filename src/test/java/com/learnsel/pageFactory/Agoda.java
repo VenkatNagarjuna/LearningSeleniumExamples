@@ -42,7 +42,7 @@ public class Agoda {
 		arrive.sendKeys("Fri 06/10");
 		
 		driver.findElement(By.className("searchButton flightsSearch")).click();
-	
+		System.out.println("sample test");
 	}
 	
 	public void selectMonth(String month){
